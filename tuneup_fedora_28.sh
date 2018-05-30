@@ -3,7 +3,7 @@
 
 # install some tools
 
-sudo dnf install vim mc htop chrome-gnome-shell
+sudo dnf install vim mc htop chrome-gnome-shell libappindicator
 
 
 # install java developmnet tools
