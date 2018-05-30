@@ -3,7 +3,7 @@
 
 # install some tools
 
-sudo dnf install vim mc htop
+sudo dnf install vim mc htop chrome-gnome-shell
 
 
 # install java developmnet tools
