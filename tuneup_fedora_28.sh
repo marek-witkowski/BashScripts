@@ -41,12 +41,12 @@ sudo usermod -a -G vboxusers $USER
 
 # install ffmpeg
 
-dnf -y install https://download1.rpmfusion.org/{free/fedora/rpmfusion-free,nonfree/fedora/rpmfusion-nonfree}-release-$(rpm -E %fedora).noarch.rpm
-dnf -y install ffmpeg-libs compat-ffmpeg28 gstreamer1-libav gstreamer1-plugins-ugly 
+sudo dnf -y install https://download1.rpmfusion.org/{free/fedora/rpmfusion-free,nonfree/fedora/rpmfusion-nonfree}-release-$(rpm -E %fedora).noarch.rpm
+sudo dnf -y install ffmpeg-libs compat-ffmpeg28 gstreamer1-libav gstreamer1-plugins-ugly 
 
 # fix usb SD card bug.
 
-sudo apt-get install exfat-fuse exfat-utils
+sudo apt-get -y install exfat-fuse exfat-utils
 
 
 
