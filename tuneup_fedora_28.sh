@@ -48,6 +48,10 @@ sudo dnf -y install ffmpeg-libs compat-ffmpeg28 gstreamer1-libav gstreamer1-plug
 
 sudo apt-get -y install fuse-exfat exfat-utils
 
+# ISO to pendrive tool
+
+sudo dnf -y install livecd-tools
+
 
 
 
