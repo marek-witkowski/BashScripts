@@ -50,7 +50,7 @@ sudo apt-get -y install fuse-exfat exfat-utils
 
 # ISO to pendrive tool
 
-sudo dnf -y install livecd-tools
+sudo dnf -y install livecd-tools spin-kickstarts
 
 
 
