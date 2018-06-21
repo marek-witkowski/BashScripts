@@ -2,7 +2,7 @@
 
 # install some tools
 
-sudo apt-get install  -y vim mc htop chrome-gnome-shell
+sudo apt-get install  -y vim mc htop chrome-gnome-shell gnome-tweak-tool
 
 # install java developmnet tools
 
