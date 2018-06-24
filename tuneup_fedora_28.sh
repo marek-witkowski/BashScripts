@@ -52,6 +52,9 @@ sudo apt-get -y install fuse-exfat exfat-utils
 
 sudo dnf -y install livecd-tools spin-kickstarts
 
+# fix iPhone problem
+
+sudo dnf -y install libimobiledevice-utils
 
 
 
