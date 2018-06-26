@@ -8,7 +8,7 @@ sudo dnf -y install vim mc htop chrome-gnome-shell libappindicator gnome-tweak-t
 
 # install java developmnet tools
 
-sudo dnf -y install maven git gitflow gradle vagrant 
+sudo dnf -y install maven git gitflow gradle vagrant wildfly
 
 
 # install docker
