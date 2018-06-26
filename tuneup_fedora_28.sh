@@ -57,4 +57,13 @@ sudo dnf -y install livecd-tools spin-kickstarts
 sudo dnf -y install libimobiledevice-utils
 
 
+# .... and games! ;)
+
+sudo dnf -y install openttd
+
+
+
+
+
+
 
