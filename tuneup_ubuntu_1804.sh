@@ -20,7 +20,7 @@ sudo snap install  -y slack --classic
 # install intelliJ 
 
 # sudo snap install intellij-idea-community --classic --edge
-sudo snap install -y intellij-idea-ultimate --classic --edgeedge
+sudo snap install -y intellij-idea-ultimate --classic --edge
 
 
 # install docker
