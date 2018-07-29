@@ -33,3 +33,6 @@ sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubun
 
 sudo apt-get update
 sudo apt-get install -y docker-ce
+
+
+  sudo usermod -aG docker marek
