@@ -15,7 +15,7 @@ mkdir -p src/it 	            #   Integration Tests (primarily for plugins)
 mkdir -p src/assembly 	        #   Assembly descriptors
 mkdir -p src/site #   Site
 
-touch src/main/resources/META-INF/presistance.xml
+touch src/main/resources/META-INF/presistence.xml
 touch src/main/resources/log4j2.xml
 touch src/main/webapp/WEB-INF/web.xml
 touch src/main/webapp/WEB-INF/jboss-web.xml
