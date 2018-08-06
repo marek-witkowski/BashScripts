@@ -3,6 +3,11 @@
 
 
 mkdir -p src/main/java 	              #   Application/Library sources
+mkdir -p src/main/java/domain
+mkdir -p src/main/java/repository
+mkdir -p src/main/java/dao
+mkdir -p src/main/java/servlets
+
 mkdir -p src/main/resources           #	Application/Library resources
 mkdir -p src/main/resources/META-INF
 mkdir -p src/main/filters 	          #   Resource filter files
@@ -19,5 +24,6 @@ touch src/main/resources/META-INF/presistence.xml
 touch src/main/resources/log4j2.xml
 touch src/main/webapp/WEB-INF/web.xml
 touch src/main/webapp/WEB-INF/jboss-web.xml
+touch pom.xml
 
 
