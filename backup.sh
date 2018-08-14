@@ -7,10 +7,8 @@
 #
 # -------------------------------------------------------------------
 
-
 data_old=`date --date='7 days ago'  +%Y-%m-%d`
 data=`date +%Y-%m-%d`
-
 
 # --------------------------------------------------------------------
 # backup /etc
@@ -21,11 +19,6 @@ cd /
         tar -cvvf $data-etc.tar.gz etc/
         mv $data-etc.tar.gz /backup/server/etc
 
-
-
-
-
-
 cd /var/log
 
         tar -cvvf $data-maillog.tar.gz maillog
@@ -35,7 +28,6 @@ cd /var/log
 # --------------------------------------------------------------------
 # backup /home
 # --------------------------------------------------------------------
-
 
 cd /backup/server/
 
