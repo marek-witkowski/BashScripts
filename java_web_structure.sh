@@ -7,6 +7,9 @@ mkdir -p src/main/java/domain
 mkdir -p src/main/java/repository
 mkdir -p src/main/java/dao
 mkdir -p src/main/java/servlets
+mkdir -p src/main/java/
+mkdir -p src/main/utils/
+mkdir -p src/main/controllers/
 
 mkdir -p src/main/resources           #	Application/Library resources
 mkdir -p src/main/resources/META-INF
