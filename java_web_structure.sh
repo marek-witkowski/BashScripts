@@ -27,7 +27,7 @@ touch src/main/resources/META-INF/presistence.xml
 touch src/main/resources/log4j2.xml
 touch src/main/webapp/WEB-INF/web.xml
 touch src/main/webapp/WEB-INF/jboss-web.xml
-touch serc/main/webapp/index.jsp
+touch src/main/webapp/index.jsp
 touch pom.xml
 
 
