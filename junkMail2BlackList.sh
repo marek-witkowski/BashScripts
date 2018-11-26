@@ -1,8 +1,5 @@
 #!/bin/bash
 
-echo "JunkMail 2 BlackList"
-echo "--------------------"
-
 touch results.txt
 
 path2mail="/home"
@@ -31,5 +28,11 @@ for path in $path2mail/* ;  do
 
 done
 
+# domains
+# awk -F "<" '{print $2}' temp.txt | sed s'/>//' | awk 'NF' | awk -F "@" '{print $2}' | sort -u  > results.txt;
 
-awk -F "<" '{print $2}' temp.txt | sed s'/>//' | awk 'NF' | awk -F "@" '{print $2}' | sort -u  > results.txt;
+# emails
+awk -F "<" '{print $2}' temp.txt | sed s'/>//' | awk 'NF' |  sort -u  > results.txt;
+
+sed 's/$/ reject/' results.txt > blacklist
+cat blacklist >> /etc/postfix/access
