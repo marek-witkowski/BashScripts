@@ -46,7 +46,7 @@ sudo dnf -y install ffmpeg-libs compat-ffmpeg28 gstreamer1-libav gstreamer1-plug
 
 # fix usb SD card bug.
 
-sudo apt-get -y install fuse-exfat exfat-utils
+sudo dnf -y install fuse-exfat exfat-utils
 
 # ISO to pendrive tool
 
