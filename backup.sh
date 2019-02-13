@@ -46,3 +46,4 @@ rm /backup/server/etc/$data_old-etc.tar.gz
 rm /backup/server/$data_old-maillog.tar.gz
 rm -r -f /backup/server/$data_old
 
+exit 0
