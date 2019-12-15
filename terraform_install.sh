@@ -11,3 +11,5 @@ which terraform
 terraform -v
 rm terraform_${VER}_linux_amd64.zip
 rm index.html
+
+
