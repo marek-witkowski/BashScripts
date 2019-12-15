@@ -7,4 +7,4 @@ unzip terraform_${VER}_linux_amd64.zip
 sudo mv terraform /usr/local/bin/
 which terraform
 terraform -v
-
+rm terraform_${VER}_linux_amd64.zip
