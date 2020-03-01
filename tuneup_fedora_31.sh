@@ -61,8 +61,7 @@ sudo dnf -y install libimobiledevice-utils
 
 sudo dnf -y install openttd
 
-sudo dnf -y install sdcv stardict-dic-en aspell aspell-en aspell-pl
-
+sudo dnf -y install sdcv stardict-dic-en aspell aspell-en aspell-pl texlive-polski
 
 
 
