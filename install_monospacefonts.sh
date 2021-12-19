@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 # Script to install great monospaced fonts for code and terminal in Fedora.
 

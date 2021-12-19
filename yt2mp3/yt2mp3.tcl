@@ -1,4 +1,4 @@
-#!/usr/bin/wish
+#!/usr/bin/env wish
 
 
 grid [label .myLabel -text "Sciezka zapisu:"]

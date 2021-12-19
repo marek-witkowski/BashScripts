@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 queuelength=`/usr/sbin/postqueue -p | tail -n1 | awk '{print $5}'`
 queuecount=`echo $queuelength | grep "[0-9]"`

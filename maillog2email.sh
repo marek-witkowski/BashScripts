@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 # the script extracts e-mail addresses from the mail log to separate files
 
