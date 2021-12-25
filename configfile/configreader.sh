@@ -1,11 +1,11 @@
 #!/usr/bin/env bash
 
 
-
+# My configuration file.
 
 configfile="configfile.cfg"
 
-
+# 
 
 read_default_config() {
 
@@ -18,13 +18,16 @@ read_default_config() {
 
 
 
+# Reading default values.
+
 read_default_config
 
+# If exist configuration file - use it!
 
 [[ $configfile ]] && source "$configfile"
 
 
-
+# Show final configuration values.
 
 
 
