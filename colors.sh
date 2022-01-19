@@ -1,4 +1,8 @@
 #!/usr/bin/env bash	
+
+# The colour definition for use in the terminal.
+# Usage:
+# echo -e "${RED}red${NOCOLOR} text"
 	
 BLACK="\033[0;30m"
 RED="\033[0;31m"
